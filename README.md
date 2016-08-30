@@ -11,3 +11,8 @@ https://www.reddit.com/r/JavaMicroServices/
 http://javaeeeee.blogspot.in/2015/12/start-building-jvm-microservices-with.html
 
 https://github.com/dropwizard/dropwizard
+
+
+https://geekflare.com/enable-jmx-tomcat-to-monitor-administer/
+http://www.i-net-design.com/2011/07/15/monitoring-tomcat-7-with-jmc/
+https://blog.mafr.de/2011/03/12/enabling-jmx-acces-on-tomcat/
