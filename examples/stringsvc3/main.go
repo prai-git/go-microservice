@@ -21,7 +21,8 @@ func main() {
 	flag.Parse()
 
 	var logger log.Logger
-	logger = log.NewLogfmtLogger(os.Stderr)
+	f, _ := os.OpenFile("testlogfile", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	logger = log.NewLogfmtLogger(f)
 	logger = log.NewContext(logger).With("listen", *listen).With("caller", log.DefaultCaller)
 
 	ctx := context.Background()
