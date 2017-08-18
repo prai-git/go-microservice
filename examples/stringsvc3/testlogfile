@@ -1,0 +1,3 @@
+listen=:8080 caller=proxying.go:26 proxy_to=none
+listen=:8080 caller=main.go:72 msg=HTTP addr=:8080
+listen=:8080 caller=logging.go:28 method=uppercase input="hello, world121" output="HELLO, WORLD121" err=null took=1.186µs
